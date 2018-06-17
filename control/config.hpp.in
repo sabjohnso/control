@@ -1,0 +1,23 @@
+#ifndef CONFIG_HPP_INCLUDED_626737889567463964
+#define CONFIG_HPP_INCLUDED_626737889567463964 1
+
+
+namespace Control
+{
+  namespace Config
+  {
+
+    int major  = ${CONTROL_MAJOR};
+    int minor  = ${CONTROL_MINOR};
+    int update = ${CONTROL_UPDATE};
+
+    char version = "${CONTROL_VERSION}";
+    char version_update = "${CONTROL_VERSION_UPDATE}";
+
+
+    
+  } // end of namespace Config
+} // end of namespace Control
+
+
+#endif // !defined CONFIG_HPP_INCLUDED_626737889567463964
